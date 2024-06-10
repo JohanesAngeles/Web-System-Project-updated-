@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('JohanImages/Photo\ Album\ -\ Johan\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.title-quote{
+    position: relative;
+    left: 400px;
+    top: 210px;
+    color: #000000;
+    font-family: 'TNR';
+    font-size: 20px;
+    text-align: justify;
+}
+
+.audio-mp3{
+    position: absolute;
+    top: 380px;
+    width: 956px;
+    left: 475px;
+}
+
+.img-line1{
+    position: absolute;
+    top: 450px;
+    left:405px;
+}
+
+.img-line2{
+    position: absolute;
+    top: 821px;
+    left:405px;
+}
+
+.img-line3{
+    position: absolute;
+    top: 1190px;
+    left:405px;
+}
+
+.img-line4{
+    position: absolute;
+    top: 1560px;
+    left:405px;
+}
+
+.img-line5{
+    position: absolute;
+    top: 1934px;
+    left:405px;
+}
+
+.img-line6{
+    position: absolute;
+    top: 2310px;
+    left:405px;
+}
+
+.img-line7{
+    position: absolute;
+    top: 2686px;
+    left:405px;
+}
+
+.img-line8{
+    position: absolute;
+    top: 3062px;
+    left:405px;
+}
+
+.img-line9{
+    position: absolute;
+    top: 3433px;
+    left:405px;
+}
+
+.img-line10{
+    position: absolute;
+    top: 3804px;
+    left:405px;
+}
+
+.img-line11{
+    position: absolute;
+    top: 4175px;
+    left:405px;
+}
+
+.img-line12{
+    position: absolute;
+    top: 4546px;
+    left:405px;
+}
+
+.img-line13{
+    position: absolute;
+    top: 4917px;
+    left:405px;
+}
+
+.img-line14{
+    position: absolute;
+    top: 5288px;
+    left:405px;
+}
+
+.img-line15{
+    position: absolute;
+    top: 5659px;
+    left:405px;
+    padding-bottom: 100px;
+}

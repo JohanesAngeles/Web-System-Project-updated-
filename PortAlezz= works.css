@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('AlezzImages/Works\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    top: 170px;
+    left: 780px;
+    padding-bottom: 5600px;
+}

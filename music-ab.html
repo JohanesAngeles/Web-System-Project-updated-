@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Room - Ab</title>
+    <link rel="stylesheet" href="music-ab.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+     <!-- Swiper -->
+     <div class="swiper mySwiper swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="openModal(0)">
+                <img src="ABImages/Goodluck, babe! - album.png" alt="Goodluck, babe! - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(1)">
+                <img src="ABImages/Karera - album.png" alt="Karera - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(2)">
+                <img src="ABImages/We cant be friends - album.png" alt="We cant be friends - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(3)">
+                <img src="ABImages/My kink is karma - album.png" alt="My kink is karma - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(4)">
+                <img src="ABImages/Be free with me - album.png" alt="Be free with me - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(5)">
+                <img src="ABImages/The power - album.png" alt="The power - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(6)">
+                <img src="ABImages/Kapangyarihan - album.png" alt="Kapangyarihan - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(7)">
+                <img src="ABImages/The prophecy - album.png" alt="The prophecy - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(8)">
+                 <img src="ABImages/Bukod-tangi - album.png" alt="Bukod-tangi - Album">
+            </div>
+            <div class="swiper-slide" onclick="openModal(9)">
+                <img src="ABImages/Mirror ball - album.png" alt="Mirror ball - Album">
+             </div>    
+        </div>
+    </div>
+
+ <!-- The Modal -->
+ <div id="musicModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="" class="title-music-bg3"> <!-- Moved title image here -->
+       
+        <p id="modal-artist">Artist: </p>
+        <p id="modal-album">Album: </p>
+
+
+
+        <img src="ABImages/title-bg-line.png" alt="" class="title-bg-display">
+    </div>
+</div>
+
+<!-- The Vinyl Modal -->
+<div id="vinylModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeVinylModal()">&times;</span>
+        <div class="vinyl-animation">
+            <img src="" class="vinyl-image" />
+            <img src="AlezzImages/vinyl-bg.png" alt="" class="vinyl-bg">
+            <img src="AlezzImages/vinyl - thong.png" alt="" class="vinyl-bg2">
+        </div>
+    </div>
+</div>
+
+<!-- Include Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+var musicData = [
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/Goodluck, Babe! - title.png",
+            "class": "title-img-1"
+        },
+        "vinylImg": "ABImages/Goodluck, babe! - vinyl.png",
+        "artist": "Chappell Roan",
+        "album": "The Rise and Fall of a Midwest Princess",
+        "music": "AbAlbum/1 - Good Luck Babe Audio  Chappell Roan.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/Karera - title.png",
+            "class":"title-img-2",
+          },
+        "vinylImg": "ABImages/Karera - vinyl.png",
+        "artist": "Bini",
+        "album": "Karera",
+        "music": "AbAlbum/2 - BINI  Karera Lyrics.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/we can’t be friends - title.png",
+            "class": "title-img-3"
+        },
+        "vinylImg": "ABImages/We cant be friends - vinyl.png",
+        "artist": "Ariana Grande",
+        "album": "we can’t be friends",
+        "music": "AbAlbum/3 - Ariana Grande  we cant be friends wait for your love lyric visualizer.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/My kink is karma - title.png",
+            "class": "title-img-4"
+        },
+        "vinylImg": "ABImages/My kink is karma - vinyl.png",
+        "artist": "Chappell Roan",
+        "album": "The Rise and Fall of a Midwest Princess",
+        "music": "AbAlbum/4 - My Kink Is Karma Audio  Chappell Roan.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/Be Free With Me - title.png",
+            "class": "title-img-5"
+        },
+        "vinylImg": "ABImages/Be free with me - vinyl.png",
+        "artist": "Siine (feat. Frank Moody)",
+        "album": "Be Free With Me",
+        "music": "AbAlbum/5 - Siine feat Frank Moody  Be Free With Me.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/The Power - title.png",
+            "class": "title-img-6"
+        },
+        "vinylImg": "ABImages/The power - vinyl.png",
+        "artist": "Annrain",
+        "album": "The Power - “From Idol Philippines Season 2",
+        "music": "AbAlbum/6 - The Power  Ann Raniel Lyrics  Idol Philippines Season 2.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/Kapangyarihan - title.png",
+            "class": "title-img-8"
+        },
+        "vinylImg": "ABImages/Kapangyarihan - vinyl.png",
+        "artist": "iDolls",
+        "album": "Drag You & Me",
+        "music": "AbAlbum/7 - Kapangyarihan  iDolls Lyrics.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/The Prophecy - title.png",
+            "class": "title-img-9"
+        },
+        "vinylImg": "ABImages/The prophecy - vinyl.png",
+        "artist": "Taylor Swift",
+        "album": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "music": "AbAlbum/8 - The Prophecy Audio  Taylor Swift.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/Bukod-Tangi - title.png",
+            "class": "title-img-9"
+        },
+        "vinylImg": "ABImages/Bukod-tangi - vinyl.png",
+        "artist": "Unique Salonga",
+        "album": "PANGALAN:",
+        "music": "AbAlbum/9 Unique Salonga  BukodTangi Official Audio.mp3"
+    },
+    {
+        "img": "",
+        "titleImg": {
+            "src": "ABImages/mirrorball - title.png",
+            "class": "title-img-9"
+        },
+        "vinylImg": "ABImages/Mirrorball - vinyl.png",
+        "artist": "Taylor Swift",
+        "album": "folklore",
+        "music": "AbAlbum/10 - Taylor Swift  mirrorball Official Lyric Video.mp3"
+    },
+];
+
+var audio = new Audio();
+var currentMusicIndex = -1;
+
+function updateMusicDetails(index) {
+    var adjustedIndex = index;
+    console.log("Received index:", adjustedIndex);
+    if (currentMusicIndex !== adjustedIndex) {
+        currentMusicIndex = adjustedIndex;
+        var musicInfo = musicData[adjustedIndex];
+
+        console.log("Updating to:", musicInfo);
+
+        // Set the title image from the musicData
+        var titleImageElement = document.querySelector('.title-music-bg3');
+        titleImageElement.src = musicInfo.titleImg.src;
+
+        // Update the artist and album text
+        document.querySelector('#modal-artist').textContent = "Artist: " + musicInfo.artist;
+        document.querySelector('#modal-album').textContent = "Album: " + musicInfo.album;
+
+        // Set and play the audio
+        audio.src = musicInfo.music;
+
+        // Reset previous animation state
+        var vinylImageElement = document.querySelector('.vinyl-image');
+        vinylImageElement.src = musicInfo.vinylImg;
+        vinylImageElement.style.animation = "none";
+        void vinylImageElement.offsetWidth; // Trigger reflow
+        vinylImageElement.style.animation = null;
+
+        // When audio metadata is loaded, get the duration and start the rotation
+        audio.onloadedmetadata = function() {
+            var desiredDurationInSeconds = 3;
+            var duration = audio.duration; // Get the duration of the song in seconds
+            var animationDuration = desiredDurationInSeconds + 's'; // Create a duration string in seconds
+
+            // Apply rotation animation with the song duration
+            vinylImageElement.style.animation = `spin ${animationDuration} linear infinite`;
+
+            // Start the audio playback
+            audio.play();
+
+            // Start the rotation
+            var vinylAnimation = document.querySelector('.vinyl-animation1');
+            vinylAnimation.classList.add('rotate');
+        };
+
+        // Ensure the animation stops when the song ends
+        audio.onended = function() {
+            var vinylAnimation = document.querySelector('.vinyl-animation1');
+            vinylAnimation.classList.remove('rotate');
+            vinylImageElement.style.animation = "none"; // Reset the animation to stop the rotation
+        };
+    }
+}
+
+function openModal(index) {
+    var musicInfo = musicData[index];
+    document.getElementById('modal-artist').textContent = "Artist: " + musicInfo.artist;
+    document.getElementById('modal-album').textContent = "Album: " + musicInfo.album;
+
+    // Set the title image
+    var titleImageElement = document.querySelector('.title-music-bg3');
+    titleImageElement.src = musicInfo.titleImg.src;
+
+    var modal = document.getElementById("musicModal");
+    modal.style.display = "block";
+    setTimeout(function() {
+        openVinylModal(musicInfo.vinylImg);
+    }, 5000); // 5000 milliseconds = 5 seconds
+}
+
+function closeModal() {
+    var modal = document.getElementById("musicModal");
+    modal.style.display = "none";
+}
+
+function openVinylModal(vinylImg) {
+    var vinylImageElement = document.querySelector('.vinyl-image');
+    vinylImageElement.src = vinylImg;
+
+    var modal = document.getElementById("vinylModal");
+    modal.style.display = "block";
+}
+
+function closeVinylModal() {
+    var modal = document.getElementById("vinylModal");
+    modal.style.display = "none";
+}
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 3,
+    coverflowEffect: {
+        rotate: 10,
+        stretch: 150,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false, // Set to false to remove shadows
+    },
+    loop: true,
+    initialSlide: 2,
+    on: {
+        slideChange: function () {
+            var activeIndex = this.realIndex;
+            console.log("Slide changed to:", activeIndex);
+
+            // Update music details based on the active slide index
+            updateMusicDetails(activeIndex);
+        }
+    }
+});
+</script>
+
+</body>
+</html>
+

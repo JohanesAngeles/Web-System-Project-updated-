@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('ABImages/awards\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title{
+    position: absolute;
+    top: 315px;
+    left: 300px;
+    padding-bottom: 2550px;
+}
+
+.works {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18.7px;
+    color: white;
+    width: 151px;
+    height: 47px;
+    font-family: 'TNR'; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+    top: 2770px;
+    left: 400px;
+}
+
+.portfolio {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18.7px;
+    color: white;
+    width: 151px;
+    height: 47px;
+    font-family: 'TNR'; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+    top: 2770px;
+    right: 400px;
+}

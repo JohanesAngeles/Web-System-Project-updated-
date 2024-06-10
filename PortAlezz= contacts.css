@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('AlezzImages/Contacts\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    padding-bottom: 1300px;
+}
+
+.contact-phone_number {
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 525px;
+    left: 200px;
+}
+
+.numberHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+    
+}
+
+.phone_no_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.phone_no {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.contact-email{
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 525px;
+    right: 200px;
+}
+
+.emailHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+}
+
+.email_no_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.email{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.contact-location {
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 795px;
+    left: 200px;
+}
+
+.loctionHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+    
+}
+
+.location_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.location {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.contact-facebook{
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 795px;
+    right: 200px;
+}
+
+.facebookHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+}
+
+.facebook_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.facebook{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.contact-instagram {
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 1055px;
+    left: 200px;
+}
+
+.instagramHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+    
+}
+
+.instagram_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.instagram {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.contact-github{
+    position: absolute;
+    background-color: #60336E;
+    width: 690px;
+    height: 220px;
+    top: 1055px;
+    right: 200px;
+}
+
+.githubHeader {
+    position: absolute;
+    background-color: #391246;
+    width: 690px;
+    height: 92px;
+}
+
+.github_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 10px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.github{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 120px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+

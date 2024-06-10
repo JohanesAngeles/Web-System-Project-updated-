@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personified Lifeline</title>
+    <link rel="stylesheet" href="indiv - nv menu - johan.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="JohanImages/Individual Navigation - Johan.png" alt="" class="art1-bg">
+                <button class="art1b" onclick="navigateTo('')"></button>
+                <button class="info-art1" onclick="navigateTo('info1.html')"></button>
+            </div>
+            <div class="swiper-slide">
+                <img src="JohanImages/art2 - bg - johan.png" alt="" class="art2-bg">
+                <button class="art2b" onclick="navigateTo('bio-johan.html')"></button>
+                <button class="info-art2" onclick="navigateTo('info2.html')"></button>
+            </div>
+            <div class="swiper-slide">
+                <img src="JohanImages/art3 - bg - johan.png" alt="" class="art3-bg">
+                <button class="art3b" onclick="navigateTo('music-johan.html')"></button>
+                <button class="info-art3" onclick="navigateTo('info3.html')"></button>
+            </div>
+            <div class="swiper-slide">
+                <img src="JohanImages/art4_5_6 - bg - johan.png" alt="" class="art4_5_6-bg">
+                <button class="art4b" onclick="navigateTo('personal-story-johan1.html')"></button>
+                <button class="info-art4" onclick="navigateTo('info4.html')"></button>
+                <button class="art5b" onclick="navigateTo('personal-story-johan2.html')"></button>
+                <button class="info-art5" onclick="navigateTo('info5.html')"></button>
+                <button class="art6b" onclick="navigateTo('personal-story-johan3.html')"></button>
+                <button class="info-art6" onclick="navigateTo('info6.html')"></button>
+            </div>
+            <div class="swiper-slide">
+                <img src="JohanImages/art7 - bg - johan.png" alt="" class="art7-bg">
+                <button class="art7b" onclick="navigateTo('photo-album-johan.html')"></button>
+                <button class="info-art7" onclick="navigateTo('info7.html')"></button>
+            </div>
+            <div class="swiper-slide">
+                <img src="JohanImages/art8 - bg - johan.png" alt="" class="art8-bg">
+                <button class="art8b" onclick="navigateTo('PortJohan= 1stpage.html')"></button>
+                <button class="info-art8" onclick="navigateTo('info8.html')"></button>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>

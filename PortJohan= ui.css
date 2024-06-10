@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+section {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+    position: relative;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    display: block; /* Removes any inline spacing */
+}
+
+.programming1 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+    
+}
+
+.programming2 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+.programming-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming3 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming4 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming5 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming6 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming7 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}
+
+.programming8 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.programming-8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    transform: translate(-50%, -50%); /* Centers the image */
+}

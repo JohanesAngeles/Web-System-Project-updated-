@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('JohanImages/Portfolio\ -\ Johan\ -\ firstpage\ =\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.objective-paragraph1 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'TNR';
+    color: #510E0F;
+    top: 900px;
+    left: 875px;
+    padding-bottom: 2000px;
+}
+
+.objective-paragraph2{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'TNR';
+    color: #510E0F;
+    top: 1025px;
+    left: 515px;
+    width: 865px;
+    padding-bottom: 4000px;
+}
+
+.view-resume{
+    position: absolute;
+    font-family: 'TNR';
+    font-size: 20px;
+    width: 151px;
+    height: 47px;
+    background-color: transparent;
+    border: 1px solid #510E0F;
+    top: 1210px;
+    left: 875px;
+    cursor: pointer;
+}
+
+.programming {
+    position: absolute;
+    left: 300px;
+    top: 1550px;
+}
+
+.programmingb {
+    position: absolute;
+    left: 300px;
+    top: 2138px;
+    width: 588px;
+    height: 68px;
+    font-family: 'TNR';
+    font-size: 20px;
+    color: white;
+    background-color: #510E0F;
+   
+}
+
+.ui {
+    position: absolute;
+    right: 300px;
+    top: 1550px; 
+}
+
+.uib{
+    position: absolute;
+    right: 300px;
+    top: 2138px;
+    width: 588px;
+    height: 68px;
+    font-family: 'TNR';
+    font-size: 20px;
+    color: white;
+    background-color: #510E0F;
+}
+
+.logo {
+    position: absolute;
+    left: 300px;
+    top: 2275px;
+}
+
+.logob {
+    position: absolute;
+    left: 300px;
+    top: 2863px;
+    width: 588px;
+    height: 68px;
+    font-family: 'TNR';
+    font-size: 20px;
+    color: white;
+    background-color: #510E0F;
+}
+
+.certification {
+    position: absolute;
+    right: 300px;
+    top: 2275px;
+}
+
+.certificationb {
+    position: absolute;
+    right: 300px;
+    top: 2863px;
+    width: 588px;
+    height: 68px;
+    font-family: 'TNR';
+    font-size: 20px;
+    color: white;
+    background-color: #510E0F;
+}
+
+.contact-psocial_media {
+    position: absolute;
+    width: 588px;
+    height: 237px;
+    background-color: transparent;
+    border: 1px solid #510E0F;
+    top: 3200px;
+    left: 300px;
+}
+
+.socialmediaHeader {
+    position: absolute;
+    background-color: #510E0F;
+    width: 588px;
+    height: 66px;
+}
+
+.social_media_title{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 1px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.social_meadia {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 80px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+    color: #510E0F;
+}
+
+.contact-email {
+    position: absolute;
+    width: 588px;
+    height: 237px;
+    background-color: transparent;
+    border: 1px solid #510E0F;
+    top: 3200px;
+    right: 300px;
+}
+
+.emailHeader {
+    position: absolute;
+    background-color: #510E0F;
+    width: 588px;
+    height: 66px;
+}
+
+.email_title{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 1px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.email {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 80px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+    color: #510E0F;
+}
+
+.contact-number {
+    position: absolute;
+    width: 588px;
+    height: 237px;
+    background-color: transparent;
+    border: 1px solid #510E0F;
+    top: 3477px;
+    left: 300px;
+}
+
+.numberHeader {
+    position: absolute;
+    background-color: #510E0F;
+    width: 588px;
+    height: 66px;
+}
+
+.number_title{
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 1px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.number {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 100px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+    color: #510E0F;
+}
+
+.contact-LinkedInUpWork {
+    position: absolute;
+    width: 588px;
+    height: 237px;
+    background-color: transparent;
+    border: 1px solid #510E0F;
+    top: 3477px;
+    right: 300px;
+}
+
+.LinkedInUpWorkHeader {
+    position: absolute;
+    background-color: #510E0F;
+    width: 588px;
+    height: 66px;
+}
+
+.LinkedInUpWork_title {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 1px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+}
+
+.LinkedInUpWork {
+    position: absolute;
+    text-align: center;
+    font-family: 'TNR';
+    font-size: 20px;
+    top: 100px;
+    left: 50%; /* Position the left side of the element in the center of the parent */
+    transform: translateX(-50%);
+    color: #510E0F;
+}

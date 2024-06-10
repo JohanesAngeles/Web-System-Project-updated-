@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    position: relative; /* Ensure the slide is a positioned element */
+}
+
+.front_page_bg {
+    position: absolute;
+    width: 100%; /* Resize as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    position: relative; /* Ensure this is a positioned element */
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling when content overflows */
+}
+
+.page1_img {
+    position: absolute;
+    top: 580px;  /* Adjust as needed */
+    left: 325px; /* Adjust as needed */
+    width: 1289px;  /* Adjust as needed */
+    height: 309px; /* Maintain aspect ratio */
+}
+
+.first_page_paragraph1 {
+    position: absolute;
+    top: 150px;  /* Adjust as needed */
+    left: 325px;  /* Adjust as needed */
+    width: 1289px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.first_page_paragraph2{
+    position: absolute;
+    top: 360px;  /* Adjust as needed */
+    left: 325px;  /* Adjust as needed */
+    width: 1289px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.second_paragraph1{
+    position: absolute;
+    top: 157px;  /* Adjust as needed */
+    left: 175px;  /* Adjust as needed */
+    width: 700px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.second_paragraph2{
+    position: absolute;
+    top: 440px;  /* Adjust as needed */
+    left: 1050px;  /* Adjust as needed */
+    width: 700px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.second_paragraph3{
+    position: absolute;
+    top: 550px;  /* Adjust as needed */
+    left: 1050px;  /* Adjust as needed */
+    width: 700px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.third_page_img4{
+    position: absolute;
+    top: 200px;  /* Adjust as needed */
+    left: 150px; 
+}
+
+.third_page_img3{
+    position: absolute;
+    top: 400px;  /* Adjust as needed */
+    left: 590px; 
+}
+.third_page_img2{
+    position: absolute;
+    top: 200px;  /* Adjust as needed */
+    left: 1025px;
+}
+
+.third_page_img1{
+    position: absolute;
+    top: 400px;  /* Adjust as needed */
+    left: 1400px; 
+}
+
+
+.fourth_page_paragraph1{
+    position: absolute;
+    top: 150px;  /* Adjust as needed */
+    left: 325px;  /* Adjust as needed */
+    width: 1289px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.fourth_page_paragraph2{
+    position: absolute;
+    top: 300px;  /* Adjust as needed */
+    left: 325px;  /* Adjust as needed */
+    width: 1289px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fifth_paragraph1{
+    position: absolute;
+    top: 300px;  /* Adjust as needed */
+    left: 390px;  /* Adjust as needed */
+    width: 60%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.fifth_paragraph2{
+    position: absolute;
+    top: 450px;  /* Adjust as needed */
+    left: 390px;  /* Adjust as needed */
+    width: 60%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic1 {
+    position: absolute;
+    top: 475px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+.fourth_page_pic2 {
+    position: absolute;
+    top: 1800px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic3 {
+    position: absolute;
+    top: 2600px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic4 {
+    position: absolute;
+    top: 3650px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic5 {
+    position: absolute;
+    top: 4760px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic6 {
+    position: absolute;
+    top: 5430px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic7 {
+    position: absolute;
+    top: 6310px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic8 {
+    position: absolute;
+    top: 7120px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_paragraph3 {
+    text-align: center;
+    position: absolute;
+    top: 8100px;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    left: 770px
+
+}
+
+.fourth_page_pic9{
+    position: absolute;
+    top: 8200px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic10{
+    position: absolute;
+    top: 8710px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_pic11{
+    position: absolute;
+    top: 9350px;  /* Adjust as needed */
+    left: 575px;  /* Adjust as needed */
+    width: 750px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.fourth_page_paragraph4 {
+    text-align: center;
+    position: absolute;
+    top: 9700px;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    left: 870px;
+    padding-bottom: 100px;
+}
+

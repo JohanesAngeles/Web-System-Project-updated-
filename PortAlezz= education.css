@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('AlezzImages/Education\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    padding-bottom: 2400px;
+}
+
+.elementary{
+    position: absolute;
+    background-color: #60336E;
+    width: 1516px;
+    height: 438px;
+    top: 525px;
+    left: 200px;
+}
+
+.elem-pic {
+    position: absolute;
+    top: 70px;
+    left: 800px;
+}
+
+.elem-title {
+    position: absolute;
+    top: 130px;
+    left: 125px;
+}
+
+.elem-paragraph {
+    position: absolute;
+    top: 225px;
+    left: 125px;
+    font-family: 'TNR';
+    font-size: 25px;
+}
+
+.jhs {
+    position: absolute;
+    background-color: #60336E;
+    width: 1516px;
+    height: 438px;
+    top: 1013px;
+    left: 200px;
+}
+
+.jhs-pic {
+    position: absolute;
+    top: 70px;
+    left: 800px;
+}
+
+.jhs-title {
+    position: absolute;
+    top: 110px;
+    left: 125px;
+}
+
+.jhs-paragraph {
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    font-family: 'TNR';
+    font-size: 25px;
+}
+
+.shs {
+    position: absolute;
+    background-color: #60336E;
+    width: 1516px;
+    height: 438px;
+    top: 1496px;
+    left: 200px; 
+}
+
+.shs-title {
+    position: absolute;
+    top: 110px;
+    left: 125px;
+}
+
+.shs-pic {
+    position: absolute;
+    top: 70px;
+    left: 800px;
+}
+
+.shs-paragraph {
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    font-family: 'TNR';
+    font-size: 25px;
+}
+
+.college {
+    position: absolute;
+    background-color: #60336E;
+    width: 1516px;
+    height: 438px;
+    top: 1979px;
+    left: 200px;
+}
+
+.college-title {
+    position: absolute;
+    top: 130px;
+    left: 125px;
+}
+
+.college-pic{
+    position: absolute;
+    top: 70px;
+    left: 800px;
+}
+
+.college-paragraph{
+    position: absolute;
+    top: 225px;
+    left: 125px;
+    font-family: 'TNR';
+    font-size: 25px;
+}
+
+

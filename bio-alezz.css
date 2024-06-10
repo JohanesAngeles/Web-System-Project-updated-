@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+        margin: 0;
+        padding: 0;
+        background: url('AlezzImages/bio-\ Alezz\ -bg.png') top/cover no-repeat;
+        color: #fff;
+}
+
+.h1{
+    position: absolute;
+    top: 325px; 
+    left: 520px;
+}
+
+.h2{
+    position: absolute;
+    top: 240px;
+    left: 750px;
+}
+
+.first-line-img{
+    position: absolute;
+    top:550px;
+    left: 480px;
+}
+
+.second-line-img{
+    position: absolute;
+    top: 852px;
+    left: 480px;
+}
+
+.third-line-img{
+    position: absolute;
+    top: 1165px;
+    left: 480px;
+}
+
+.fourth-line-img{
+    position: absolute;
+    top: 1500px;
+    left: 480px;
+}
+
+.name{
+    position: absolute;
+    top: 970px;
+    left: 267px;
+    
+}
+
+.bio-paragraph1{
+    position: absolute;
+    text-align: justify;
+    width: 70%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 242px;
+    top: 1020px;
+    line-height: 32px;
+}
+
+.bio-paragraph2{
+    position: absolute;
+    text-align: justify;
+    width: 70%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 242px;
+    top: 1135px;
+    line-height: 32px;
+}
+
+.bio-paragraph3{
+    position: absolute;
+    text-align: justify;
+    width: 70%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 242px;
+    top: 1280px;
+    line-height: 32px;
+    padding-bottom: 500px;
+}
+
+.babypic-firstLine {
+    position: absolute;
+    top: 2830px;
+    left: 480px;
+}
+
+.babypic-secondLine{
+    position: absolute;
+    top: 3150px;
+    left: 480px;
+}
+
+.babypic2-firstLine{
+    position: absolute;
+    top: 3500px;
+    left: 480px;
+}
+
+.babypic2-secondLine{
+    position: absolute;
+    top: 3825px;
+    left: 480px;
+}
+
+.bio-parahraph-1{
+    position: absolute;
+    text-align: justify;
+    width: 50%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 475px;
+    top: 4190px;
+    line-height: 32px;
+}
+
+.bio-paragraph-2{
+    position: absolute;
+    text-align: justify;
+    width: 50%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 475px;
+    top: 4440px;
+    line-height: 32px;
+}
+
+.bio-img-2_firstline{
+    position: absolute;
+    top: 4730px;
+    left: 480px;
+}
+
+.bio-img-2_secondLine{
+    position: absolute;
+    top: 5030px;
+    left: 480px;
+}
+
+.bio-img-2_thirdLine{
+    position: absolute;
+    top: 5340px;
+    left: 480px;
+}
+
+.bio-img-2_fourthLine{
+    position: absolute;
+    top: 5650px;
+    left: 480px;
+}
+
+.goal-paragraph{
+    position: absolute;
+    text-align: justify;
+    width: 79%;
+    font-family: 'TNR';
+    font-size: 20px;
+    left: 160px;
+    line-height: 32px;
+    padding-bottom: 500px;
+    top: 1990px;
+    
+}
+
+.quote-bg{
+    position: absolute;
+    top: 6200px;
+    left: 450px;
+}
+
+.success{
+    position: absolute;
+    top: 6280px;
+    left: 475px;
+}
+
+.is_not{
+    position: absolute;
+    top: 6405px;
+    left: 580px;
+}
+
+.happines{
+    position: absolute;
+    top: 6500px;
+    left: 975px;
+}
+
+.is_the{
+    position: absolute;
+    top: 7135px;
+    left: 1305px;
+}
+
+.if_you{
+    position: absolute;
+    top: 7272px;
+    left: 530px;
+}
+
+.love{
+    position: absolute;
+    top: 7230px;
+    left: 720px;
+}
+
+.doing{
+    position: absolute;
+    top: 7272px;
+    left: 1052px;
+}
+
+
+.qoute-footer{
+    position: absolute;
+    text-align: justify;
+    width: 36%;
+    font-family: 'TNR';
+    font-size: 22px;
+    left: 660px;
+    top: 7550px;
+    line-height: 32px;
+    padding-bottom: 300px;
+}

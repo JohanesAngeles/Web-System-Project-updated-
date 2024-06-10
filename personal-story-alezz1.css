@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    position: relative; /* Ensure the slide is a positioned element */
+}
+
+.front_page_bg {
+    position: absolute;
+    width: 100%; /* Resize as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    position: relative; /* Ensure this is a positioned element */
+    width: 100%;
+    height: 100%;
+}
+
+.page1_img {
+    position: absolute;
+    width: 100%; /* Resize as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.first_page_paragraph1{
+    position: absolute;
+    top: 190px;  /* Adjust as needed */
+    left: 200px;  /* Adjust as needed */
+    width: 40%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.first_page_paragraph2{
+    position: absolute;
+    top: 608px;  /* Adjust as needed */
+    left: 200px;  /* Adjust as needed */
+    width: 40%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}
+
+.third_page_img1 {
+    position: absolute;
+    top: 218px;  /* Adjust as needed */
+    left: 400px; /* Adjust as needed */
+}
+
+.third_page_img2 {
+    position: absolute;
+    top: 218px;  /* Adjust as needed */
+    right: 400px; /* Adjust as needed */
+}
+.third_paragraph1{
+    position: absolute;
+    top: 530px;  /* Adjust as needed */
+    right: 400px;  /* Adjust as needed */
+    width: 29%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; /* Adjust as needed */
+    /* Add other styling as needed */
+}

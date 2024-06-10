@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Rêveurs' Voyage</title>
+    <!-- CSS Stylesheet link -->
+    <link rel="stylesheet" href="start.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Text to be translated -->
+        <p id="translatable-text">Nous forgerons des héritages, nous serons éternels</p>
+        
+        <button id="start-button" class="start-button">START</button>
+    </div>
+    <!-- JavaScript script -->
+    <!--<script src="main.js"></script>-->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Store the original and translated text
+            var originalText = document.getElementById('translatable-text').textContent;
+            var translatedText = "We will forge legacies, we will be timeless";
+            
+            // Add event listener to toggle between original and translated text
+            document.getElementById('translatable-text').addEventListener('click', function() {
+                var isTranslated = this.textContent === translatedText;
+                var newText = isTranslated ? originalText : translatedText;
+                this.style.transition = 'opacity 0.5s ease-out'; // Smooth opacity transition
+                this.style.opacity = 0; // Set opacity to 0 for smooth transition
+                setTimeout(function() {
+                    this.textContent = newText;
+                    this.style.opacity = 1; // Fade in the new text
+                    // Toggle the translated-text class based on the content
+                    if (isTranslated) {
+                        this.classList.remove('translated-text');
+                    } else {
+                        this.classList.add('translated-text');
+                    }
+                }.bind(this), 500); // Adjust the duration (in milliseconds) as needed
+            });
+
+            // Add event listener to the button to navigate to homepage.html
+            document.getElementById('start-button').addEventListener('click', function() {
+                window.location.href = 'homepage.html';
+            });
+        });
+    </script>
+</body>
+</html>
